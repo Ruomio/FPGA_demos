@@ -1,0 +1,5 @@
+module clk (
+    ports
+);
+    
+endmodule
