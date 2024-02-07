@@ -21,7 +21,7 @@ module testbench ();
     end
 
     initial begin
-        $dumpfile("wave.vcd");
+        $dumpfile("sim/wave.vcd");
         $dumpvars(0, testbench);
         #6000 $finish;
     end
